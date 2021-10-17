@@ -437,7 +437,8 @@ span {
 /* 
     MEDIA QUERY FOR SMALL PHONES
 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
     .nav_menu {
         position: fixed;
         padding: 2em 1.5em;

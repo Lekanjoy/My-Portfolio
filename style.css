@@ -437,7 +437,7 @@ span {
 /* 
     MEDIA QUERY FOR SMALL PHONES
 */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .nav_menu {
         position: fixed;
         padding: 2em 1.5em;

@@ -496,12 +496,7 @@ span {
     .card p{
     font-size: .9rem;
     text-align: center;
-     margin-bottom: 1rem;
 }
-
-:hover{
-        display: none
-    }
 
 .show {
         right: 0;
@@ -566,15 +561,7 @@ span {
         max-width: 65%;
         margin: auto;
         }
-    
-    :hover{
-        display: none
-    }
-  
-    
-    
-    
-    
+   
     
     
 

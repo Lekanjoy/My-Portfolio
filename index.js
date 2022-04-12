@@ -47,12 +47,15 @@ downloadCv.addEventListener("click", () => {
   },5000)
 });
 
+function sendEmail(){
+ Email.send({
+   SecureToken:"62b168e5-16ae-4309-abdc-611d0356ed12",
+   To: "alabilekanemmanuel@gmail.com",
+   From: document.getElementById('mail').value,
+   Subject: "New Portfolio Subscription",
+   Body: "Hello, I would like to subscribe to your newsletter <br> Email: " + document.getElementById('mail').value,
+ }).
+ then(alert("Email Sent Succesfully"));
+};
 
-/*
-document.querySelectorAll(".nav_menu").forEach((n) =>
-  n.addEventListener("click", () => {
-    navMenu.classList.remove("show");
-  })
-);
-*/
 

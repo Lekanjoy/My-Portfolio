@@ -56,9 +56,9 @@
           <h1 class="hero_name">Alabi <span>Olalekan</span></h1>
           <h3 class="hero_detail">I'm a Web Developer and Designer</h3>
           <div class="cta">
-            <form action="mailto:alabilekanemmanuel@gmail.com" method="get">
+            <form onsubmit="sendEmail() >
               <input type="email" id="mail" placeholder="Enter Your Email" />
-              <input type="submit" id="sub" value="Get Started" />
+              <input type="submit" id="sub" value="Subscribe" />
             </form>
           </div>
         </div>
@@ -184,6 +184,7 @@
         </div>
       </section>
     </main>
+     <script src="https://smtpjs.com/v3/smtp.js"></script>                    
     <script src="index.js"></script>
   </body>
 </html>
